@@ -19,6 +19,63 @@
         <div class="starter-template">
             <h1>Linear interpolation</h1>
             <p class="lead">Enter your parameters and let's start to interpolate!</p>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="left">Enter your parameters here:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>x<sub>0</sub></label>
+                                <input id="x0" name="x0" type="number" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>y<sub>0</sub></label>
+                                <input id="y0" name="y0" type="number" placeholder="255">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>x<sub>1</sub></label>
+                                <input id="x1" name="x1" type="number" placeholder="20">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>y<sub>1</sub></label>
+                                <input id="y1" name="y1" type="number" placeholder="128">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="left">Enter x here and gets its value:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>x</label>
+                                <input id="x" name="x" type="number" placeholder="15">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>y</label>
+                                <input id="y" name="y" type="number" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-right">
+                        <button id="btn-submit" class="btn-individual btn btn-primary">Let's interpolate!</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="left">Check the image below to know what the parameters mean:</p>
+                    <img class="help-image" src="img/LinearInterpolation.svg">
+                    <p><small><a href="https://en.wikipedia.org/wiki/File:LinearInterpolation.svg">Image Source</a></small></p>
+                </div>
+            </div>
         </div>
     </div>
     <script src="js/jquery.slim.min.js"></script>
