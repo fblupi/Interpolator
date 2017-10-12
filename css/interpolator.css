@@ -1,0 +1,17 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: #4527A0 !important
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover {
+    background-color: #311B92 !important
+}
