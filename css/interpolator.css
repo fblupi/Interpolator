@@ -16,11 +16,14 @@ a.bg-primary:hover {
     background-color: #311B92 !important;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .btn-primary {
     color:#fff;
     background-color: #4527A0;
     border-color: #4527A0;
-    cursor: pointer;
 }
 
 .btn-primary:hover {
